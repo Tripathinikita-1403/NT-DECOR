@@ -30,9 +30,19 @@
   </main>
 <script>
   const models = [
-    {name:"Sofa", url:"./assets/sofa.glb"},
-    {name:"Chair", url:"./assets/chair.glb"}
-  ];
+  {
+    id: 'sofa',
+    name: 'Sofa',
+    url: 'https://yourusername.github.io/virtual-interior-designer/assets/sofa.glb',
+    ios: ''
+  },
+  {
+    id: 'chair',
+    name: 'Chair',
+    url: 'https://yourusername.github.io/virtual-interior-designer/assets/chair.glb',
+    ios: ''
+  }
+];
   const catalogEl=document.getElementById('catalog');
   const viewer=document.getElementById('viewer');
   models.forEach(m=>{
